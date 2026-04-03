@@ -7,7 +7,7 @@ const navItems = [
   { label: "मुखपृष्ठ", href: "/" },
   { label: "परिचय", href: "/parichay" },
   { label: "पूजा", href: "/#services" },
-  { label: "तीर्थयात्रा", href: "/sevayien/devbhumi-darshan" },
+  { label: "तीर्थयात्रा", href: "/tirthyatra" },
   { label: "उत्पाद", href: "/#blog" },
   { label: "सेवाएं", href: "/sevayien" },
   { label: "दान", href: "/daan" },

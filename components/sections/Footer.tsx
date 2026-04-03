@@ -5,7 +5,7 @@ const navLinks = [
   { label: "मुखपृष्ठ",    href: "/" },
   { label: "परिचय",       href: "/parichay" },
   { label: "पूजा सेवाएं", href: "/#services" },
-  { label: "तीर्थयात्रा",  href: "/sevayien/devbhumi-darshan" },
+  { label: "तीर्थयात्रा",  href: "/tirthyatra" },
   { label: "आयोजन",       href: "/sevayien/aane-wale-karyakram" },
   { label: "सेवाएं",      href: "/sevayien" },
   { label: "दान करें",    href: "/daan" },
