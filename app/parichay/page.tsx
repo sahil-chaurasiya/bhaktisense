@@ -97,7 +97,7 @@ export default function ParichayPage() {
           <motion.div {...fadeUp(0)}>
             {/* Breadcrumb */}
             <div className="flex items-center gap-2 text-white/50 text-sm mb-6">
-              <a href="/" className="hover:text-[#111111] transition-colors" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>मुखपृष्ठ</a>
+              <a href="/" className="hover:text-white transition-colors" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>मुखपृष्ठ</a>
               <span>/</span>
               <span className="text-gray-500" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>परिचय</span>
             </div>
@@ -182,7 +182,7 @@ export default function ParichayPage() {
               <motion.div
                 animate={{ y: [0, -8, 0] }}
                 transition={{ repeat: Infinity, duration: 3.5, ease: "easeInOut" }}
-                className="absolute -bottom-6 -left-6 bg-gradient-to-br [#16a34a] rounded-2xl px-6 py-4 shadow-xl text-white"
+                className="absolute -bottom-6 -left-6 bg-[#16a34a] rounded-2xl px-6 py-4 shadow-xl text-white"
               >
                 <p className="text-2xl font-black" style={{ fontFamily: "'Noto Sans Devanagari',sans-serif" }}>जूना</p>
                 <p className="text-sm opacity-90" style={{ fontFamily: "'Noto Sans Devanagari',sans-serif" }}>अखाड़ा</p>
@@ -370,10 +370,10 @@ export default function ParichayPage() {
                 className="group bg-white border border-gray-200 rounded-2xl p-7 shadow-lg hover:shadow-2xl hover:shadow-black/15 transition-all duration-500 relative overflow-hidden"
               >
                 <div className="absolute top-0 left-0 right-0 h-1 bg-[#16a34a] scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
-                <div className="absolute inset-0 bg-gradient-to-br from-[#16a34a]/3 to-[#16a34a]/3 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-[#16a34a]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                 <div className="relative z-10">
-                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br [#16a34a] flex items-center justify-center mb-5 shadow-lg shadow-black/15 group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-14 h-14 rounded-xl bg-[#16a34a] flex items-center justify-center mb-5 shadow-lg shadow-black/15 group-hover:scale-110 transition-transform duration-300">
                     <p.Icon className="text-white" size={26} />
                   </div>
                   <h3
@@ -519,9 +519,9 @@ export default function ParichayPage() {
         <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
           <motion.div {...fadeUp()}>
             <div className="flex items-center justify-center gap-4 mb-6">
-              <div className="h-px w-16 bg-green-50" />
+              <div className="h-px w-16 bg-[#16a34a]/40" />
               <span className="text-[#16a34a] text-2xl">ॐ</span>
-              <div className="h-px w-16 bg-green-50" />
+              <div className="h-px w-16 bg-[#16a34a]/40" />
             </div>
             <h2
               className="text-3xl sm:text-4xl font-bold text-white mb-4"
