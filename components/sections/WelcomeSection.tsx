@@ -92,7 +92,7 @@ export default function WelcomeSection() {
             className="relative"
           >
             {/* Main image */}
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/15
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/15">
               <img
                 src="https://images.unsplash.com/photo-1626871955001-d2e9db5f7d37?w=700&auto=format&fit=crop"
                 alt="Temple"

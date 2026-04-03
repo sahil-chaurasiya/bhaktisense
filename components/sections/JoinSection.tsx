@@ -7,14 +7,14 @@ const cards = [
     icon: Users,
     title: "भक्ति परिवार",
     desc: "लाखों सनातनियों के साथ जुड़ें और एक विशाल भक्त परिवार का हिस्सा बनें।",
-    color: "from-gray-900 to-gray-900
-    shadow: "shadow-black/15
+    color: "from-gray-900 to-gray-900",
+    shadow: "shadow-black/15",
   },
   {
     icon: Smartphone,
     title: "Online पूजा",
     desc: "घर बैठे अपने नाम से पूजा कराएं — कुशल पंडितों द्वारा विधिवत संपन्न।",
-    color: "from-gray-800 to-gray-900
+    color: "from-gray-800 to-gray-900",
     shadow: "shadow-gray-200",
   },
   {
@@ -28,7 +28,7 @@ const cards = [
     icon: MapPin,
     title: "तीर्थयात्रा",
     desc: "पवित्र धामों की यात्रा की सरल व्यवस्था, संपूर्ण मार्गदर्शन के साथ।",
-    color: "from-gray-800 to-gray-900
+    color: "from-gray-800 to-gray-900",
     shadow: "shadow-gray-200",
   },
 ];

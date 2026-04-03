@@ -163,7 +163,7 @@ export default function GauDaanPage() {
             {/* RIGHT: Booking card */}
             <div className="lg:col-span-1">
               <div className="sticky top-24 space-y-6">
-                <motion.div {...fadeUp(0.15)} className="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-xl shadow-black/15
+                <motion.div {...fadeUp(0.15)} className="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-xl shadow-black/15">
                   <div className="bg-[#16a34a] p-6 text-white">
                     <p className="text-sm font-semibold opacity-80 mb-1" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>कुल मूल्य (प्रति व्यक्ति/युगल)</p>
                     <p className="text-4xl font-black" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>₹ ३,३००</p>

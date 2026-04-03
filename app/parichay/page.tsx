@@ -169,7 +169,7 @@ export default function ParichayPage() {
             {/* Left – Image composition */}
             <motion.div {...fadeLeft()} className="relative">
               {/* Main large image */}
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/15
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/15">
                 <img
                   src="/aboutimg1.png"
                   alt="भगवान विष्णु"

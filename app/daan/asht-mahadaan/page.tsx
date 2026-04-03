@@ -27,7 +27,7 @@ const daanItems = [
     icon: "🌾",
     benefit: "संतान प्राप्ति, शनि-दोष निवारण",
     detail: "कुंडली में शनि खराब अवस्था में हो या शनि की साढ़ेसाती चल रही हो तो तिल दान अत्यंत लाभकारी है। जिस मनुष्य को संतान प्राप्ति की इच्छा हो, उसे तिल का दान करना चाहिए। काले तिल का दान दुर्भाग्य दूर करता है और घर में खुशहाली लाता है।",
-    color: "from-gray-800 to-gray-900
+    color: "from-gray-800 to-gray-900"
   },
   {
     num: "०३",
@@ -43,7 +43,7 @@ const daanItems = [
     icon: "✨",
     benefit: "दीर्घायु की प्राप्ति",
     detail: "लंबी उम्र और अच्छे स्वास्थ्य की इच्छा रखने वाले को सोने का दान देना चाहिए। स्वर्ण दान को अत्यंत पुण्यदायी माना गया है।",
-    color: "from-gray-800 to-gray-900
+    color: "from-gray-800 to-gray-900"
   },
   {
     num: "०५",
@@ -196,7 +196,7 @@ export default function AshtMahadaanPage() {
             {/* RIGHT: Booking card */}
             <div className="lg:col-span-1">
               <div className="sticky top-24 space-y-6">
-                <motion.div {...fadeUp(0.15)} className="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-xl shadow-black/15
+                <motion.div {...fadeUp(0.15)} className="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-xl shadow-black/15">
                   <div className="bg-[#16a34a] p-6 text-white">
                     <p className="text-sm font-semibold opacity-80 mb-1" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>कुल मूल्य (प्रति व्यक्ति/युगल)</p>
                     <p className="text-4xl font-black" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>₹ ३,३००</p>
