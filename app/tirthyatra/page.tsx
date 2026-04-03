@@ -20,7 +20,7 @@ const yatras = [
     duration: "समूह यात्रा",
     location: "हरिद्वार से शुरू",
     icon: "🕉️",
-    image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&auto=format&fit=crop",
+    image: "/dharmyatra.jpg",
     highlights: ["चारधाम दर्शन", "गंगा स्नान", "धर्म व्याख्यान", "सात्विक भोजन"],
   },
   {
@@ -31,7 +31,7 @@ const yatras = [
     duration: "5 दिन • 4 रात",
     location: "Ex-हरिद्वार",
     icon: "🙏",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Haridwar_Har-ki-Pauri.jpg/1280px-Haridwar_Har-ki-Pauri.jpg",
+    image: "/haridwar.webp",
     highlights: ["हर की पौड़ी", "माँ मनसा देवी", "माँ चंडी देवी", "गंगा आरती"],
   },
   {
@@ -42,7 +42,7 @@ const yatras = [
     duration: "6 दिन • 5 रात",
     location: "Ex-हरिद्वार",
     icon: "🌿",
-    image: "https://images.unsplash.com/photo-1544098485-2a2654c26f4d?w=600&auto=format&fit=crop",
+    image: "/rishikesh.webp",
     highlights: ["राम-लक्ष्मण झूला", "नीलकंठ महादेव", "बीटल्स आश्रम", "राफ्टिंग"],
   },
   {
@@ -53,7 +53,7 @@ const yatras = [
     duration: "2 दिन • 2 रात",
     location: "Ex-हरिद्वार",
     icon: "⛩️",
-    image: "https://images.unsplash.com/photo-1609766857491-7cd7e5aa2b12?w=600&auto=format&fit=crop",
+    image: "/neelkanthh.jpg",
     highlights: ["नीलकंठ मंदिर", "राम-लक्ष्मण झूला", "गंगा आरती", "मंसा-चंडी देवी"],
   },
   {
@@ -64,7 +64,7 @@ const yatras = [
     duration: "2 दिन • 2 रात",
     location: "Ex-हरिद्वार",
     icon: "🌺",
-    image: "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=600&auto=format&fit=crop",
+    image: "/maapurnagiri.jpg",
     highlights: ["पूर्णागिरि शक्तिपीठ", "गंगा स्नान", "माँ मनसा देवी", "गंगा आरती"],
   },
   {

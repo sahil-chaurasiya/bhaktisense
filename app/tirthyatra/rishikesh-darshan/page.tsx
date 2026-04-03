@@ -37,7 +37,7 @@ export default function RishikeshDarshanPage() {
     <main className="bg-[#f5f5f5]">
       <Navbar />
       <section className="relative min-h-[60vh] flex items-end overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1544098485-2a2654c26f4d?w=1800&auto=format&fit=crop" alt="ऋषिकेश" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/rishikesh.webp" alt="ऋषिकेश" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/70 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 pb-20 pt-40 w-full">

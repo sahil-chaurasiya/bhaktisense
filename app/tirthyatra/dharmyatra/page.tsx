@@ -36,24 +36,24 @@ export default function DharmyatraPage() {
 
       {/* HERO */}
       <section className="relative min-h-[60vh] flex items-end overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=1800&auto=format&fit=crop" alt="धर्मयात्रा" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/dharmyatra.jpg" alt="धर्मयात्रा" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/70 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 pb-20 pt-40 w-full">
           <motion.div {...fadeUp()}>
-            <div className="flex items-center gap-2 text-white/50 text-sm mb-6">
+            <div className="flex items-center gap-2 text-black/50 text-sm mb-6">
               <a href="/" className="hover:text-white transition-colors" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>मुखपृष्ठ</a>
               <span>/</span>
               <a href="/tirthyatra" className="hover:text-white transition-colors" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>तीर्थयात्रा</a>
               <span>/</span>
-              <span className="text-gray-400" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>धर्मयात्रा</span>
+              <span className="text-grey-700" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>धर्मयात्रा</span>
             </div>
             <div className="flex items-center gap-4 mb-5">
               <div className="h-px w-14 bg-[#16a34a]" />
               <span className="text-[#16a34a] text-xl">ॐ</span>
               <div className="h-px w-14 bg-[#16a34a]" />
             </div>
-            <h1 className="text-5xl sm:text-6xl font-black text-white mb-4" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>धर्मयात्रा</h1>
+            <h1 className="text-5xl sm:text-6xl font-black text-black mb-4" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>धर्मयात्रा</h1>
             <p className="text-[#16a34a] text-lg font-semibold mb-3" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>।।धर्मो रक्षति रक्षितः।।</p>
             <p className="text-white/65 max-w-2xl leading-relaxed" style={{fontFamily:"'Noto Sans Devanagari',sans-serif"}}>
               धर्मयात्रा धर्म को अपने में समाहित करने की यात्रा है। समूहों के लिये उपलब्ध यह यात्रा जूना अखाड़ा के साधु-संतों के मार्गदर्शन में संपन्न होती है।

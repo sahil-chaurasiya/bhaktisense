@@ -57,7 +57,7 @@ export default function HaridwarDarshanPage() {
       <Navbar />
 
       <section className="relative min-h-[60vh] flex items-end overflow-hidden">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Haridwar_Har-ki-Pauri.jpg/1280px-Haridwar_Har-ki-Pauri.jpg" alt="हरिद्वार" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/haridwar.webp" alt="हरिद्वार" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/70 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 pb-20 pt-40 w-full">
