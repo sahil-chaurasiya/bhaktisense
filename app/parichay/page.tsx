@@ -161,7 +161,7 @@ export default function ParichayPage() {
 
       {/* ─── SECTION 1: JUNA AKHADA ─── */}
       <section className="py-24 bg-[#f5f5f5] relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-green-50 blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#16a34a]/5 blur-3xl pointer-events-none opacity-40" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -343,7 +343,7 @@ export default function ParichayPage() {
 
       {/* ─── SECTION 3: 6 PILLARS ─── */}
       <section className="py-24 bg-[#f5f5f5] relative overflow-hidden">
-        <div className="absolute -top-20 -left-20 w-96 h-96 rounded-full bg-green-50 blur-3xl" />
+        <div className="absolute -top-20 -left-20 w-96 h-96 rounded-full bg-[#16a34a]/5 blur-3xl opacity-40" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16">
           <motion.div {...fadeUp()} className="text-center mb-16">
