@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;500;600;700;800&family=Mukta:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #16a34a;
+  --accent-dark: #15803d;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Noto Sans Devanagari', 'Mukta', sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  overflow-x: hidden;
+}
+
+/* ── Swiper overrides ── */
+.swiper-pagination-bullet {
+  background: rgba(255,255,255,0.5) !important;
+  width: 10px !important;
+  height: 10px !important;
+  opacity: 1 !important;
+  transition: all 0.3s !important;
+}
+.swiper-pagination-bullet-active {
+  background: #16a34a !important;
+  width: 28px !important;
+  border-radius: 5px !important;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-8px); }
+}
+.float-anim { animation: float 3s ease-in-out infinite; }
+
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: #16a34a; border-radius: 3px; }
